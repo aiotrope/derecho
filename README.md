@@ -1,6 +1,6 @@
 # derecho
 
-DBSWA assignment: TODO API with UI. Nginx upstream mapping of todo-api to /api and todo-ui to /. Application start at port 7800
+DBSWA assignment: TODO API with UI. Nginx upstream mapping of todo-api to /api and todo-ui to /. Application start at port 7800.
 
 ## CLI Commands
 
