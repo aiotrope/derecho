@@ -2,7 +2,7 @@ import * as todoService from './services/todoService.js';
 import { cacheMethodCalls } from './util/cacheUtil.js';
 
 //* Using redis caching
-const cachedTodoService = cacheMethodCalls(todoService, ['createTodo']);
+const cachedTodoService = cacheMethodCalls(todoService, ['createTodo', 'deleteTodo']);
 
 const handleGetAllTodos = async () => {
   try {
