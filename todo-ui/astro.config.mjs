@@ -6,4 +6,5 @@ import svelte from "@astrojs/svelte";
 export default defineConfig({
   integrations: [svelte()],
   server: { port: 3000, host: true }, // to change the default port 4321
+  output: 'server',
 });
